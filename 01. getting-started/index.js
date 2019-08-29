@@ -16,5 +16,5 @@ const root = {
 
 // run the grapql query `{hello}` and then print out the response
 graphql(schema, `{ hello }`, root).then(response => {
-  console.log(response)
+  console.log("response.data", response.data)
 })
